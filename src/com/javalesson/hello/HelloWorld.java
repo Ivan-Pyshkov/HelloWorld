@@ -7,9 +7,11 @@ public class HelloWorld {
 
 
         byte b = 10;
-        int a= b +23;
-        System.out.println("b = "+b);
-        System.out.println("a = "+a);
+        short c = 200;
+        int a = b +23;
+        System.out.println("byte b = "+b);
+        System.out.println("short c = "+c);
+        System.out.println("int a = "+a);
 
     }
 }
