@@ -7,7 +7,9 @@ public class HelloWorld {
 
 
         byte b = 10;
+        int a= b +23;
         System.out.println("b = "+b);
+        System.out.println("a = "+a);
 
     }
 }
