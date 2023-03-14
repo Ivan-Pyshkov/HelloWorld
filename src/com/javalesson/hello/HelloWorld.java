@@ -9,6 +9,11 @@ public class HelloWorld {
         byte b = 10;
         short c = 200;
         int a = b +23;
+        long myLongValue = 123_456_789_876L;
+
+        float myFloatVal = 23.56F;
+        double myDoubleVal = 56.45D;
+
         System.out.println("byte b = "+b);
         System.out.println("short c = "+c);
         System.out.println("int a = "+a);
