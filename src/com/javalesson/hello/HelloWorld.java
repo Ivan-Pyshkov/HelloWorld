@@ -17,6 +17,9 @@ public class HelloWorld {
         double sum = a + b + c + myLongValue + myDoubleVal + myFloatVal;
         System.out.println("SUM = " + sum);
 
+        float floatResult = myFloatVal / 2;
+        System.out.println("floatResult = " + floatResult);
+
         System.out.println("byte b = " + b);
         System.out.println("short c = " + c);
         System.out.println("int a = " + a);
