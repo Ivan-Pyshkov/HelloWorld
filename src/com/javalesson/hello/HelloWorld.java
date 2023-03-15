@@ -44,5 +44,11 @@ public class HelloWorld {
         System.out.println("short c = " + c);
         System.out.println("int a = " + a);
 
+        boolean b1 = true;
+        boolean b2 = false;
+
+        String s = "some string" + " some other string";
+        System.out.println(s);
+
     }
 }
