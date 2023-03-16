@@ -55,7 +55,7 @@ public class HelloWorld {
         int someInt = someShort;
 
         someShort = (short) someInt;
-        System.out.println("someShort" + someInt);
+        System.out.println("someInt" + someInt);
         System.out.println("someShort" + someShort);
 
     }
