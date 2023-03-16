@@ -54,12 +54,24 @@ public class HelloWorld {
         short someShort = b;
         int someInt = someShort;
 
-        someShort = (short)someInt;
+        someShort = (short) someInt;
 
 
         System.out.println("myLongValue = " + myLongValue);
         someInt = (int) myLongValue;
         System.out.println("someInt = " + someInt);
+
+        double someIntToDouble = someInt;
+        System.out.println("someIntToDouble = " + someIntToDouble);
+
+        double someDouble = myFloatVal;
+        System.out.println("someDouble = " + someDouble);
+
+        double someLongToDouble = myLongValue;
+        System.out.println("someLongToDouble = " + someLongToDouble);
+
+        long someDoubleToLong = (long) someLongToDouble;
+        System.out.println("someDoubleToLong = " + someDoubleToLong);
 
 
 /*        System.out.println("someInt" + someInt);
