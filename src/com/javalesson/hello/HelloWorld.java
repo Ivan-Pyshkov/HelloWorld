@@ -54,9 +54,17 @@ public class HelloWorld {
         short someShort = b;
         int someInt = someShort;
 
-        someShort = (short) someInt;
-        System.out.println("someInt" + someInt);
+        someShort = (short)someInt;
+
+
+        System.out.println("myLongValue = " + myLongValue);
+        someInt = (int) myLongValue;
+        System.out.println("someInt = " + someInt);
+
+
+/*        System.out.println("someInt" + someInt);
         System.out.println("someShort" + someShort);
+        System.out.println("someShort" + someShort);*/
 
     }
 }
