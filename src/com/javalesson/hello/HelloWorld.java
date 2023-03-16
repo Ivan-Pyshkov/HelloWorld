@@ -9,7 +9,7 @@ public class HelloWorld {
         byte b = 10;
         short c = 200;
         int a = b + 23;
-        long myLongValue = 123_456_789_876L;
+        long myLongValue = 123_456_789_876_543_211_2L;
 
         float myFloatVal = 23.56F;
         double myDoubleVal = 56.45D;
