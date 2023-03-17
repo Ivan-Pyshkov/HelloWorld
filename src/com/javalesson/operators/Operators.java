@@ -4,14 +4,14 @@ public class Operators {
 
     public static void main(String[] args) {
 //      + - / * %
-        int a = 10;
-        int b = 3;
+        double a = 10;
+        double b = 3;
 
-        int c = a + b;
-        int d = a - b;
-        int e = a * b;
-        int f = a / b;
-        int g = a % b;
+        double c = a + b;
+        double d = a - b;
+        double e = a * b;
+        double f = a / b;
+        double g = a % b;
 
         System.out.println("c = " + c);
         System.out.println("d = " + d);
