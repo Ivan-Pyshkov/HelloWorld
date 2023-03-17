@@ -31,6 +31,14 @@ public class Operators {
         System.out.println("New b = " + b);
 
 
+        double n = 7;
+        double m = 7;
+
+        double res1 = 2 * n++;
+        double res2 = 2 * ++m;
+
+        System.out.println("res1 = " + res1);
+        System.out.println("res2 = " + res2);
 
     }
 }
