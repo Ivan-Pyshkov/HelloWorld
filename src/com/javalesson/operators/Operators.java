@@ -48,7 +48,7 @@ public class Operators {
         int y = 5;
         int z = 8;
 
-        boolean boolVal = y != z;
+        boolean boolVal = n > m;
         System.out.println("boolVal = " + boolVal);
 
 
