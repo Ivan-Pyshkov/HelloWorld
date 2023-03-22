@@ -63,9 +63,11 @@ public class Operators {
         System.out.println("resultBoolean = " + resultBoolean);
 
 
-        int res = x < y ? x : y;
+        int res = (x > y) && (z > y) ? x : y;
 
         System.out.println("Ternary res = " + res);
+
+        System.out.println("NOT = " + !(x > y));
 
 
     }
