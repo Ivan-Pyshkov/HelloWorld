@@ -48,8 +48,9 @@ public class Operators {
         int y = 5;
         int z = 8;
 
-        boolean boolVal = x == y;
+        boolean boolVal = y != z;
         System.out.println("boolVal = " + boolVal);
+
 
     }
 }
