@@ -51,6 +51,12 @@ public class Operators {
         boolean boolVal = n >= m;
         System.out.println("boolVal = " + boolVal);
 
+        boolean boolVal2 = y > z;
+
+        boolean resultBoolean = boolVal && boolVal2;
+
+        System.out.println("resultBoolean = " + resultBoolean);
+
 
     }
 }
