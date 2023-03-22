@@ -53,7 +53,7 @@ public class Operators {
 
         boolean boolVal2 = y > z;
 
-        boolean resultBoolean = boolVal && boolVal2;
+        boolean resultBoolean = boolVal || boolVal2;
 
         System.out.println("resultBoolean = " + resultBoolean);
 
