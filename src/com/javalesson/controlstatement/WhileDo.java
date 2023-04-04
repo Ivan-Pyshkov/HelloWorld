@@ -3,7 +3,7 @@ package com.javalesson.controlstatement;
 public class WhileDo {
     public static void main(String[] args) {
         int finalBalance = 100000;
-        double currentBalance = 80000;
+        double currentBalance = 0;
         int payment = 10000;
         int years = 0;
         double interestRate = 0.1;
