@@ -10,5 +10,9 @@ public class ForLoop {
         }
         System.out.println("Final factorial value = " + factorial);
 
+        for (int i = 10; i >= 1; i--) {
+            System.out.println("I = " + i);
+        }
+
     }
 }
