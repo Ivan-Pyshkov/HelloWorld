@@ -2,7 +2,7 @@ package com.javalesson.controlstatement;
 
 public class SwitchCase {
     public static void main(String[] args) {
-        String dayOfTheWeek = "WEDnesday";
+        String dayOfTheWeek = "Saturday";
         switch (dayOfTheWeek.toLowerCase()) {
             case "monday":
                 System.out.println("This is the first working day");
@@ -20,8 +20,6 @@ public class SwitchCase {
                 System.out.println("This is the fifth working day");
                 break;
             case "saturday":
-                System.out.println("Finally weekend");
-                break;
             case "sunday":
                 System.out.println("Finally weekend");
                 break;
