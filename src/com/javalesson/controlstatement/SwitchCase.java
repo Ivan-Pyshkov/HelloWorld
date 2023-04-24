@@ -2,27 +2,27 @@ package com.javalesson.controlstatement;
 
 public class SwitchCase {
     public static void main(String[] args) {
-        String dayOfTheWeek = "Wednesday";
-        switch (dayOfTheWeek) {
-            case "Monday":
+        String dayOfTheWeek = "WEDnesday";
+        switch (dayOfTheWeek.toLowerCase()) {
+            case "monday":
                 System.out.println("This is the first working day");
                 break;
-            case "Tuesday":
+            case "tuesday":
                 System.out.println("This is the second working day");
                 break;
-            case "Wednesday":
+            case "wednesday":
                 System.out.println("This is the third working day");
                 break;
-            case "Thursday":
+            case "thursday":
                 System.out.println("This is the fourth working day");
                 break;
-            case "Friday":
+            case "friday":
                 System.out.println("This is the fifth working day");
                 break;
-            case "Saturday":
+            case "saturday":
                 System.out.println("Finally weekend");
                 break;
-            case "Sunday":
+            case "sunday":
                 System.out.println("Finally weekend");
                 break;
             default:
