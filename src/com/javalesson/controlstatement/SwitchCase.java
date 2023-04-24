@@ -1,8 +1,9 @@
 package com.javalesson.controlstatement;
 
 public class SwitchCase {
+
     public static void main(String[] args) {
-        String dayOfTheWeek = "Saturday";
+        String dayOfTheWeek = args[0];
         switch (dayOfTheWeek.toLowerCase()) {
             case "monday":
                 System.out.println("This is the first working day");
