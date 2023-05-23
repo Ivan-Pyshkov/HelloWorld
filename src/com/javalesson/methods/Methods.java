@@ -6,14 +6,10 @@ public class Methods {
 
         int a = 5;
         int b = 10;
-//        calcRectangleSquare(5,10);
-        int square = calcRectangleSquare(a, b);
-        System.out.println("Rectangle square = " + square);
-        int i = calcSquare(b);
-        System.out.println("Square = " + i);
+        System.out.println("Rectangle square = " + calcRectangleSquare(a, b));
+        System.out.println("Square = " + calcSquare(b));
 
-        int sumOfSquares = square + i;
-        System.out.println("Sum of squares = " + sumOfSquares);
+        System.out.println("Sum of squares = " + (calcRectangleSquare(a, b) + calcSquare(b)));
     }
 
     static void printMessage(String name) {
