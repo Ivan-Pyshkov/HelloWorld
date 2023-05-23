@@ -8,8 +8,12 @@ public class Methods {
         int b = 10;
 //        calcRectangleSquare(5,10);
         int square = calcRectangleSquare(a, b);
-
         System.out.println("Rectangle square = " + square);
+        int i = calcSquare(b);
+        System.out.println("Square = " + i);
+
+        int sumOfSquares = square + i;
+        System.out.println("Sum of squares = " + sumOfSquares);
     }
 
     static void printMessage(String name) {
@@ -20,5 +24,9 @@ public class Methods {
     static int calcRectangleSquare(int x, int y) {
         int square = x * y;
         return square;
+    }
+
+    static int calcSquare(int x) {
+        return x * x;
     }
 }
